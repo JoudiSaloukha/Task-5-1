@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+  
+</head>
+<body> 
+    <div class="calculator mt-5 mx-auto bg-white rounded shadow p-4">
+        <div class="screen bg-dark text-white text-right p-4 rounded mb-2" id="screen">0</div>
+        <div class="row">
+            <button class="btn rounded-circle m-1  bg-warning scientific" id="sin">sin</button>
+            <button class="btn rounded-circle m-1  bg-warning scientific" id="cos">cos</button>
+            <button class="btn rounded-circle m-1  bg-danger text-white clear" id="clear">C</button>
+            <button class="btn rounded-circle bg-primary text-white operator" id="divide">/</button>
+        </div>
+        <div class="row">
+            <button class="btn rounded-circle m-1  number" id="7">7</button>
+            <button class="btn rounded-circle m-1  number" id="8">8</button>
+            <button class="btn rounded-circle m-1  number" id="9">9</button>
+            <button class="btn rounded-circle m-1  bg-primary text-white operator" id="multiply">*</button>
+        </div>
+        <div class="row">
+            <button class="btn rounded-circle m-1  number" id="4">4</button>
+            <button class="btn rounded-circle m-1  number" id="5">5</button>
+            <button class="btn rounded-circle m-1  number" id="6">6</button>
+            <button class="btn rounded-circle m-1  bg-primary text-white operator" id="minus">-</button>
+        </div>
+        <div class="row">
+            <button class="btn rounded-circle m-1  number" id="1">1</button>
+            <button class="btn rounded-circle m-1  number" id="2">2</button>
+            <button class="btn rounded-circle m-1  number" id="3">3</button>
+            <button class="btn rounded-circle m-1  bg-primary text-white operator" id="add">+</button>
+        </div>
+        <div class="row">
+            <button class="btn rounded-circle m-1  number" id="0">0</button>
+            <button class="btn rounded-circle m-1  number" id="dot">.</button>
+            <button class="btn rounded-circle m-1  bg-success text-white equals" id="equals">=</button>
+        </div>
+    </div>
+
+    <script src="./assests/js/calculator.js"></script>
+</body>
+</html>

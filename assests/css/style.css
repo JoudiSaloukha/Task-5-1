@@ -1,0 +1,29 @@
+.calculator {
+    width: 340px;
+}
+
+.screen {
+    font-size: 30px;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+}
+
+.operator:hover {
+    background-color: #0056b3;
+}
+
+.equals:hover {
+    background-color: #218838;
+}
+
+.scientific:hover {
+    background-color: #e0a800;
+}
+
+.clear:hover {
+    background-color: #c82333;
+}
